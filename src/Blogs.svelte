@@ -22,7 +22,11 @@
             {/if}
         {/each}
     {:else}
-        <p> Sorry there are no blogs, Please use the input to add one </p>
+        <div class="bg-semi-transparent notFoundMessage notFoundMessage">
+            <p>Put in a URL and Hit submit to aggregate some blogs</p>
+            <iframe src="https://giphy.com/embed/uHD9t4kUUuTXTLMuuu" width="384" height="480" frameBorder="0" class="giphy-embed" allowFullScreen title="cat"></iframe><p><a href="https://giphy.com/gifs/traslacamara-funny-cat-animal-uHD9t4kUUuTXTLMuuu">via GIPHY</a></p>
+            <p>Blogger cat says try https://www.thatcatblog.com/</p>
+        </div>
     {/if}
 {:else}
 <p> loading.....blogs....</p> 
@@ -30,5 +34,12 @@
 
 <hr />
 <style>
+    .notFoundMessage {
+        margin:50px;
+        min-height: 240px;
+        vertical-align: middle;
+        font-size: x-large;
+        padding:50px;
+    }
 
 </style>

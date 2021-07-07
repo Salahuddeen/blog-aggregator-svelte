@@ -19,10 +19,7 @@
 </div>
 
 <style>
-.bg-semi-transparent{
-    background-color:  rgba(72, 161, 177, 0.15);
-    color:rgba(95, 218, 255, 0.945);
-}
+
 
 .card{
     margin:10px;
